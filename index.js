@@ -17,5 +17,5 @@ CoffeeScriptFilter.prototype.extensions = ['css'];
 CoffeeScriptFilter.prototype.targetExtension = 'css';
 
 UglifyCssFilter.prototype.processString = function (string) {
-  return Uglifycss(string, this.options);
+  return Uglifycss.processFiles(string, this.options);
 };
