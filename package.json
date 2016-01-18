@@ -1,0 +1,32 @@
+{
+    "name": "broccoli-cssmin",
+    "version": "0.0.1",
+    "description": "compress css",
+    "repository": {
+        "type": "git",
+        "url": "https://baixuexiyang@github.com/baixuexiyang/broccoli-cssmin.git"
+    },
+    "author": {
+        "name": "keven",
+        "email": "ganzwen@gmail.com"
+    },
+    "engines": {
+        "node": ">=0.10.0"
+    },
+    "scripts": {
+        "test": "broccoli build tmp"
+    },
+    "files": ["index.js"],
+    "keywords": ["broccoli-cssmin", "broccoli-plugin", "css", "cssmin", "compress"],
+    "dependencies": {
+        "broccoli-filter": "^1.2.2",
+        "uglifycss": "0.0.20"
+    },
+    "devDependencies": {
+        "broccoli-fixture": "^0.1.0",
+        "chai": "^3.4.0",
+        "chai-as-promised": "^5.1.0",
+        "mocha": "^2.3.3"
+    },
+    "license": "MIT"
+}
