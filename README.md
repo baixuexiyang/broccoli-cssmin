@@ -10,7 +10,11 @@ npm install broccoli-cssmin
 # Usage   
 ```
 var cssmin = require("broccoli-cssmin");    
-cssmin(tree, options);    
+cssmin(tree, {   
+	maxLineLen: 0,  
+    expandVars: false,   
+    cuteComments: true   
+});    
 ```  
 # Options  
 ### maxLineLen  
