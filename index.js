@@ -13,8 +13,8 @@ function UglifyCssFilter (inputTree, options) {
     cuteComments: true
   };
 }
-CoffeeScriptFilter.prototype.extensions = ['css'];
-CoffeeScriptFilter.prototype.targetExtension = 'css';
+UglifyCssFilter.prototype.extensions = ['css'];
+UglifyCssFilter.prototype.targetExtension = 'css';
 
 UglifyCssFilter.prototype.processString = function (string) {
   return Uglifycss.processFiles(string, this.options);
